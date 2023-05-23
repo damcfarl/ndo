@@ -30,7 +30,7 @@ variable "template_name" {
   default = "ND_USER_terraform_template"
 }
 
-variable "schema_name" {
+variable "schema" {
     type    = string
     default = "ND_USER_terraform_schema"
 }

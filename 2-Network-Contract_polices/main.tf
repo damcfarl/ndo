@@ -32,10 +32,10 @@ data "mso_site" "site1" {
 
 # Define an MSO Schema Resource.
 resource "mso_schema" "schema_obj" {
-    name             = var.schema_name
+    name             = var.schema
     template {
-#       name         = var.schema_name
-#       display_name = var.schema_name
+#       name         = var.schema
+#       display_name = var.schema
         name         = var.template_name
         display_name = var.template_name
         tenant_id    = data.mso_tenant.tenant_obj.id
@@ -45,7 +45,7 @@ resource "mso_schema" "schema_obj" {
 # Define an MSO Schema VRF Resource.
 resource "mso_schema_template_vrf" "vrf_obj" {
     schema_id     = mso_schema.schema_obj.id
-#   template      = var.schema_name
+#   template      = var.schema
     template      = var.template_name
     name          = var.vrf
     display_name  = var.vrf

@@ -1,0 +1,3 @@
+alias gs='git status'
+alias gl='git log --all'
+alias gll='git log --all --graph --decorate'

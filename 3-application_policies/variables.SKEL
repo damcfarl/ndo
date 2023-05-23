@@ -1,0 +1,51 @@
+variable "mso_username" {
+  default = "ND_USER"
+}
+
+variable "mso_password" {
+  default = "ND_PASS"
+}
+
+variable "mso_url" {
+  default = "https://ZZ.ZZ.ZZ.ZZ"
+}
+
+variable "tenant_name" {
+  type    = string
+  default = "ND_USER_terraform_T01"
+}
+
+variable "template_name" {
+    type    = string
+    default = "ND_USER_terraform_template"
+}
+
+variable "schema" {
+    type    = string
+    default = "ND_USER_terraform_schema"
+}
+
+variable "vrf" {
+    type    = string
+    default = "ND_USER_prod_vrf"
+}
+variable "bd" {
+    type    = string
+    default = "ND_USER_prod_bd"
+}
+
+variable "anp" {
+    description = "Create application profile"
+    type        = string
+    default     = "ND_USER_Terraform_App"
+}
+variable "epgs" {
+    description = "Create epg"
+    type        = string
+    default     = "ND_USER_Terraform_Web"
+}
+variable "contracts" {
+  description = "Create contracts with these filters"
+  type        = string
+  default     = "ND_USER_Internet-to-Web"
+}

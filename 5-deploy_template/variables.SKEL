@@ -1,0 +1,36 @@
+variable "mso_username" {
+  default = "ND_USER"
+}
+
+variable "mso_password" {
+  default = "ND_PASS"
+}
+
+variable "mso_url" {
+  default = "https://ZZ.ZZ.ZZ.ZZ"
+}
+
+variable "site1_name" {
+  type    = string
+  default = "ND_SITE1"
+}
+
+variable "site2_name" {
+  type    = string
+  default = "ND_SITE2"
+}
+
+variable "tenant_name" {
+  type    = string
+  default = "ND_USER_terraform_T01"
+}
+
+variable "template_name" {
+  type    = string
+  default = "ND_USER_terraform_template"
+}
+
+variable "schema" {
+    type    = string
+    default = "ND_USER_terraform_schema"
+}

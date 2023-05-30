@@ -1,6 +1,7 @@
 Very brief instructions
 
 This set of terrform HCL files have been tested on NDO 3.7.2h and 4.1.2e
+Tested with mso provider 0.9.0 and 0.10.0
 
 These files are used to demonstrate using Terraform with NDO. These are examplesonly and not meant to be used on production networks
 

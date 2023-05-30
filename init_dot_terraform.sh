@@ -11,6 +11,6 @@ do
   pwd
   rm -rf ./terrform*
   rm terraform.*
-  /usr/local/bin/terraform init
+  terraform init
   cd ../
 done

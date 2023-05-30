@@ -49,7 +49,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
    then
       echo "Current Directory: " 
       pwd
-      /usr/local/bin/terraform apply -auto-approve 
+      terraform apply -auto-approve 
       cd ../
       sleep 2
    fi

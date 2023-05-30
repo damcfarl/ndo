@@ -35,7 +35,7 @@ TMP_FILE="ZZ_FILE.tf"
 #
 #####################
 
-for directory in [1-6]* 
+for directory in [1-5]* 
 
 do
    cd $directory

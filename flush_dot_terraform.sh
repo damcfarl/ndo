@@ -11,5 +11,6 @@ do
   pwd
   rm -rf .terraform*
   rm terraform*
+  rm .terraform*
   cd ../
 done

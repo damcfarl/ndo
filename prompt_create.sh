@@ -63,7 +63,7 @@ echo #########################################################################
 read -p "Y|N: "
 if [[ $REPLY =~ ^[Yy]$ ]]
    then
-   cd 3-Application_policies
+   cd 3-application_policies
    pwd
    cat main.tf
    echo ##################################################################

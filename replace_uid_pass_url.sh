@@ -13,14 +13,28 @@
 #####################
 #
 # Make changes here
-NEW_UID=user_name
-NEW_SITE1=site1
-NEW_SITE2=site2
-NEW_NDO_IP="10.10.10.10"
-NEW_PASS="password"
+#NEW_UID=user_name
+#NEW_SITE1=site1
+#NEW_SITE2=site2
+#NEW_NDO_IP="10.10.10.10"
+#NEW_PASS="password"
 #
 #
 ####################
+
+#####################
+#
+# Make changes here
+NEW_UID=terraform_css1
+NEW_SITE1=DAL
+NEW_SITE2=SFC
+NEW_NDO_IP="198.19.202.11"
+NEW_PASS="C1sco12345!"
+#
+#
+####################
+
+#####################
 
 #####################
 #

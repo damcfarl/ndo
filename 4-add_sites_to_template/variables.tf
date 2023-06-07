@@ -1,46 +1,46 @@
 variable "mso_username" {
-  default = "terraform_css1"
+  default = "user_name"
 }
 
 variable "mso_password" {
-  default = "C1sco12345!"
+  default = "password"
 }
 
 variable "mso_url" {
-  default = "https://198.19.202.11"
+  default = "https://10.10.10.10"
 }
 
 variable "site1_name" {
   type    = string
-  default = "DAL"
+  default = "site1"
 }
 
 variable "site2_name" {
   type    = string
-  default = "SFC"
+  default = "site2"
 }
 
 variable "tenant_name" {
   type    = string
-  default = "terraform_css1_terraform_T01"
+  default = "user_name_terraform_T01"
 }
 
 variable "template_name" {
   type    = string
-  default = "terraform_css1_terraform_template"
+  default = "user_name_terraform_template"
 }
 
 variable "schema" {
     type    = string
-    default = "terraform_css1_terraform_schema" 
+    default = "user_name_terraform_schema" 
 }
 
 variable "vrf" {
     type    = string
-    default = "terraform_css1_prod_vrf"
+    default = "user_name_prod_vrf"
 }
 
 variable "bd" {
     type    = string
-    default = "terraform_css1_prod_bd"
+    default = "user_name_prod_bd"
 }
